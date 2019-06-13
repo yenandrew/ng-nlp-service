@@ -27,6 +27,8 @@ Removed
 
 Fixed
 -----
+- fixed PUT /model with model_server by deserializing the model_server to
+  EndpointConfig.
 
 [1.1.4] - 2019-06-18
 ^^^^^^^^^^^^^^^^^^^^
@@ -61,6 +63,7 @@ Fixed
 Fixed
 -----
 - fixed duplicate events appearing in tracker when using a PostgreSQL tracker store
+
 
 [1.1.1] - 2019-06-13
 ^^^^^^^^^^^^^^^^^^^^
